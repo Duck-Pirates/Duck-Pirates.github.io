@@ -1,0 +1,20 @@
+body {
+	background-color: lightblue;
+}
+
+@font-face {
+  font-family: Pirate;
+  src: url(fonts/Thedarkestpearl-9Ym8Z.ttf);
+}
+
+h1 {
+	color: GoldenRod;
+	font-family: Pirate;
+	font-size: 60px;
+	background-color: Black;
+	text-align: center;
+	overflow: hidden;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: -10px;
+}
