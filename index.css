@@ -1,21 +1,13 @@
-body {
-	background-color: lightblue;
-}
-
 @font-face {
   font-family: Pirate;
   src: url(fonts/Thedarkestpearl-9Ym8Z.ttf);
 }
 
-img {
-	margin-top: -10px;
-	text-align: center;
-	vertical-align: middle;
-	width: 80px;
-	height: 80px;
+body {
+	background-color: lightblue;
 }
 
-h1 {
+body h1 {
 	color: GoldenRod;
 	font-family: Pirate;
 	font-size: 60px;
@@ -25,21 +17,96 @@ h1 {
 	background-color: rgba(21,21,21,255);
 	
 	overflow: hidden;
+	
+	padding-top: 7px;
+	
 	margin-top: -8px;
-	margin-bottom: 20px;
 	margin-left: -8px;
 	margin-right: -8px;
-	padding-top: 7px;
+	margin-bottom: 0px;
+}
+
+body h1 img {
+	text-align: center;
+	vertical-align: middle;
+	
+	width: 80px;
+	height: 80px;
+	
+	margin-top: -10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(21,21,21,255);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+li {
+	float: left;
+	border-top:1px solid #bbb;
+	border-right:1px solid #bbb;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) { 
+	background-color: rgba(71,71,71,255);
+}
+
+.active {
+	color: black;
+	background-color: GoldenRod;
 }
 
 .bodyText {
+	color: white;
+	font-family: Sans-serif;
+	text-align: center;
+	
+	background-color: rgba(21,21,21,255);
+	
 	width: 65%;
 	margin:0 auto;
-	background-color: rgba(21,21,21,255);
-	text-align: center;
-	color: white;
 }
 
-p1 {
+.linksText {
+	color: white;
+	font-family: Sans-serif;
+	text-align: left;
 	
+	background-color: rgba(21,21,21,255);
+	
+	width: 99%;
+	
+	padding-left: 10px;
+	padding-right: 10px;
+	
+	margin:0 auto;
+	margin-top: 8px;
+}
+
+.linksText p {
+	font-size: 15px;
+	
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.linksText h {
+	font-size: 20px;
 }
