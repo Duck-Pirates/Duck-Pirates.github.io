@@ -1,0 +1,114 @@
+@startgantt
+<style>
+ganttDiagram {
+	task {
+		FontName Helvetica
+		FontColor red
+		FontSize 15
+		FontStyle bold
+		BackGroundColor GreenYellow
+		LineColor blue
+	}
+	milestone {
+		FontColor blue
+		FontSize 25
+		FontStyle italic
+		BackGroundColor yellow
+		LineColor red
+	}
+	arrow {
+		FontName Helvetica
+		FontColor red
+		FontSize 18
+		FontStyle bold
+		BackGroundColor GreenYellow
+		LineColor blue
+		LineStyle 8.0;13.0
+		LineThickness 3.0
+	}
+	separator {
+		BackgroundColor lightGreen
+		LineStyle 8.0;3.0
+		LineColor red
+		LineThickness 10.0
+		FontSize 16
+		FontStyle bold
+		FontColor purple
+		Margin 5
+		Padding 10
+	}
+	timeline {
+	    BackgroundColor Bisque
+	}
+	closed {
+		BackgroundColor pink
+		FontColor red
+	}
+}
+</style>
+Project starts the 2021-11-19
+2021-12-10 to 2022-01-08 are colored in khaki
+
+
+2022-01-09 to 2022-01-14 are colored in red
+
+
+2021-11-19 to 2021-11-25 are named [Week 1]
+2021-11-26 to 2021-12-02 are named [Week 2]
+2021-12-03 to 2021-12-09 are named [Week 3]
+2021-12-10 to 2021-12-26 are named [Week 4 + Christmas Break]
+2022-01-07 to 2022-01-13 are named [Week 5 (Exams)]
+2022-01-15 to 2022-01-20 are named [Week 6]
+2022-01-21 to 2022-01-27 are named [Week 7]
+2022-01-28 to 2022-02-03 are named [Week 8]
+2022-02-04 to 2022-02-10 are named [Week 9]
+
+
+[Website] lasts 64 days
+2021-12-24 to 2021-12-28 are closed
+2021-12-24 to 2021-12-28 are colored in red
+2022-01-09 to 2022-01-14 are closed
+
+[Requirements] lasts 14 days
+[Requirements] starts 2021-11-26
+2021-12-24 to 2021-12-28 are closed
+2022-01-09 to 2022-01-14 are closed
+
+[Architecture] lasts 14 days
+[Architecture] starts 2021-11-26
+
+
+[Method Selection and Planning] lasts 21 days
+[Method Selection and Planning] starts 2021-12-03
+
+[Risk assessment and mitigation] lasts 21 days
+[Risk assessment and mitigation] starts 2021-12-03
+
+[Implementation] lasts 18 days
+[Implementation] starts 2022-01-15
+
+[Finishing Deliverables] lasts 18 days
+[Finishing Deliverables] starts 2022-01-15
+
+
+
+-- Game Development --
+
+[Set up Github] lasts 2 days
+
+[Initialise project] lasts 14 days
+[Initialise project] starts 19 days after [Set up Github]'s end
+
+[Basic features] lasts 35 days
+[Basic features] starts 0 days after [Initialise project]'s end
+
+<style>
+	separator {
+	    LineColor black
+		Margin 0
+		Padding 0
+	}
+</style>
+
+-- end --
+@endgantt

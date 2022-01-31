@@ -1,0 +1,53 @@
+@startwbs
++ Initial Plan
+++ Website
++++ Github Pages
+--- Deliverables
+++ Requirements
+++- Succinct introduction
+
++++- Research 
++++-- requirements specification
++++++ presentation
++++ Appropriately formatted statement of requirements
++++- environmental assumptions
+++++ associated risks
+++++ alternatives
+
+
+++ Architecture
+++- Represent architecture (structure)
++++- Languages 
+++++ Tools 
++++ Justification
++++- Referenceing requirements
+++++ Provide traceability
+
+
+
+++ Method selection and planning
+++- Outline engineering methods
++++- Dev tools
+++++ Colab tools
++++- Justification
+++++ Alternatives considered
++++ Teams organisation
++++ Systematic plan for the approach
++++- Task Start and finish dates
+++++ Weekly snapshots
+
+
+
+
+++ Risk Assessment and mitigation
+++- Risk format
+++++ Level of detail
++++ systematic tabular presentation
+
+++ Implementation
+++- Coding
++++ Features required
+
+
+
+@endwbs
